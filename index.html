@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Test Project</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="main.css" />
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+         crossorigin="anonymous"
+      ></script>
+   </head>
+   <body>
+      <header class="header">
+         <div class="section">
+            <ul class="header__nav">
+               <li class="header__nav-item">
+                  <a href="#">Blog</a>
+               </li>
+               <li class="header__nav-item">
+                  <a href="#">Developers</a>
+               </li>
+               <li class="header__nav-item">
+                  <a href="#">Developer Blog</a>
+               </li>
+               <li class="header__nav-item">
+                  <a href="#">Support</a>
+               </li>
+            </ul>
+            <div class="header__form-wrapper">
+               <div class="header__dropdown-wrapper">
+                  <button class="header__dropdown">
+                     <span>All Products</span>
+                     <i class="fa-solid fa-caret-down"></i>
+                  </button>
+                  <ul class="header__dropdown-list">
+                     <li>
+                        <a href="#">Item 1</a>
+                     </li>
+                     <li>
+                        <a href="#">Item 2</a>
+                     </li>
+                     <li>
+                        <a href="#">Item 3</a>
+                     </li>
+                  </ul>
+               </div>
+               <form class="header__form">
+                  <input type="text" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+               </form>
+            </div>
+         </div>
+      </header>
+
+      <main class="section main">
+         <div class="main__breadcrumb">
+            <a href="#">Home</a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a href="#">Getting Started</a>
+         </div>
+
+         <aside class="main__sidebar">
+            <div id="accordion-1" class="main__accordion-1">
+               <p class="main__accordion-title col-orange">
+                  <span>Getting Started</span>
+                  <i
+                     class="fa-solid fa-caret-right main__arrow-right rotate"
+                  ></i>
+               </p>
+               <ul class="main__accordion-list show">
+                  <li>
+                     <a href="#">User Guides</a>
+                  </li>
+                  <li>
+                     <a href="#">Developer</a>
+                  </li>
+                  <li>
+                     <a href="#">Release Notes</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div id="accordion-2" class="main__accordion-2">
+               <p class="main__accordion-title">
+                  <span>Personalization</span>
+                  <i class="fa-solid fa-caret-right main__arrow-right"></i>
+               </p>
+               <ul class="main__accordion-list">
+                  <li>
+                     <a href="#">User Guides</a>
+                  </li>
+                  <li>
+                     <a href="#">Developer</a>
+                  </li>
+                  <li>
+                     <a href="#">Release Notes</a>
+                  </li>
+               </ul>
+            </div>
+         </aside>
+
+         <div class="main__content-wrapper">
+            <h1>Getting Started</h1>
+            <div class="main__cards-wrapper">
+               <div class="main__card">
+                  <div class="main__icon-wrapper">
+                     <i class="fa-solid fa-note-sticky"></i>
+                  </div>
+                  <div class="">
+                     <h3>User Guides</h3>
+                     <p>We're a new category with lots of useful information.</p>
+                  </div>
+               </div>
+               <div class="main__card">
+                  <div class="main__icon-wrapper">
+                     <i class="fa-solid fa-dollar-sign"></i>
+                  </div>
+                  <div class="">
+                     <h3>Developer</h3>
+                     <p>We're a new category with lots of useful information.</p>
+                  </div>
+               </div>
+               <div class="main__card">
+                  <div class="main__icon-wrapper">
+                     <i class="fa-solid fa-bullhorn main__icon"></i>
+                  </div>
+                  <div class="">
+                     <h3>Release Notes</h3>
+                     <p>We're a new category with lots of useful information.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="section">
+            <h1>Still need help?</h1>
+            <form action="#" class="footer__form">
+               <div class="footer__input-wrapper">
+                  <input class="footer__input-effect" type="text" placeholder="First Name">
+                  <span class="footer__focus-border"></span>
+               </div>
+               <div class="footer__input-wrapper">
+                  <input class="footer__input-effect" type="text" placeholder="Last Name">
+                  <span class="footer__focus-border"></span>
+               </div>
+               <div class="footer__input-wrapper">
+                  <input class="footer__input-effect" type="email" placeholder="Email">
+                  <span class="footer__focus-border"></span>
+               </div>
+               <input type="submit" value="Get Started" />
+            </form>
+            <div class="footer__nav">
+               <div class="">
+                  <h3>Products</h3>
+                  <ul>
+                     <li>
+                        <a href="#">Personalization</a>
+                     </li>
+                     <li>
+                        <a href="#">eCommerce</a>
+                     </li>
+                     <li>
+                        <a href="">Order Management</a>
+                     </li>
+                     <li>
+                        <a href="#">Point of Sale</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h3>Resources</h3>
+                  <ul>
+                     <li>
+                        <a href="#">Blog</a>
+                     </li>
+                     <li>
+                        <a href="#">Developer Blog</a>
+                     </li>
+                     <li>
+                        <a href="">Developers</a>
+                     </li>
+                     <li>
+                        <a href="#">Support</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h3>Who We Are</h3>
+                  <ul>
+                     <li>
+                        <a href="#">Who We Are</a>
+                     </li>
+                     <li>
+                        <a href="#">Leadership</a>
+                     </li>
+                     <li>
+                        <a href="">News/Press</a>
+                     </li>
+                     <li>
+                        <a href="#">Ecommerce Awards</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h3>Employee Login</h3>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="main.js" type="text/javascript"></script>
+   </body>
+</html>
